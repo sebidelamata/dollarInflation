@@ -233,7 +233,7 @@ ax = sns.heatmap(myData2008ForwardDropNA.corr(),
                  vmax=1,
                  center=0,
                  cbar_kws={"shrink": .5})
-ax.set_title('Correlation between underlyings from 2010 to 2020')
+ax.set_title('Correlation between underlyings from 2010 to 2019')
 plt.xticks(rotation=30)
 ax.tick_params(left=False, bottom=False)
 for tick in ax.xaxis.get_majorticklabels():
